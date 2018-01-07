@@ -12,7 +12,7 @@
 int Menu(void);
 //返回用户预订的天数
 int GetNights(void);
-//需要支付的金额
-void ShowPrice(int Night);
+//根据房间的单价和入住的天数，来计算用户需要支付的金额
+double GetPrice(double price,int nights);
 
 #endif // _HOTEL_H_

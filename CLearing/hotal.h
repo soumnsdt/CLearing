@@ -9,10 +9,10 @@
 #define	DISCOUNT 0.95
 
 //菜单函数
-int menu(void);
+int Menu(void);
 //返回用户预订的天数
-int getNights(void);
+int GetNights(void);
 //需要支付的金额
-void showPrice(int Night);
+void ShowPrice(int Night);
 
 #endif // _HOTEL_H_

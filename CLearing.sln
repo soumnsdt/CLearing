@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StrCopy", "StrCopy\StrCopy.
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StrCompare", "StrCompare\StrCompare.vcxproj", "{573C0A5D-D898-4E1C-8E13-878E43404753}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "StrConnect", "StrConnect\StrConnect.vcxproj", "{1DC52085-EA64-466F-AAF0-977A82B2DEDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{573C0A5D-D898-4E1C-8E13-878E43404753}.Release|x64.Build.0 = Release|x64
 		{573C0A5D-D898-4E1C-8E13-878E43404753}.Release|x86.ActiveCfg = Release|Win32
 		{573C0A5D-D898-4E1C-8E13-878E43404753}.Release|x86.Build.0 = Release|Win32
+		{1DC52085-EA64-466F-AAF0-977A82B2DEDB}.Debug|x64.ActiveCfg = Debug|x64
+		{1DC52085-EA64-466F-AAF0-977A82B2DEDB}.Debug|x64.Build.0 = Debug|x64
+		{1DC52085-EA64-466F-AAF0-977A82B2DEDB}.Debug|x86.ActiveCfg = Debug|Win32
+		{1DC52085-EA64-466F-AAF0-977A82B2DEDB}.Debug|x86.Build.0 = Debug|Win32
+		{1DC52085-EA64-466F-AAF0-977A82B2DEDB}.Release|x64.ActiveCfg = Release|x64
+		{1DC52085-EA64-466F-AAF0-977A82B2DEDB}.Release|x64.Build.0 = Release|x64
+		{1DC52085-EA64-466F-AAF0-977A82B2DEDB}.Release|x86.ActiveCfg = Release|Win32
+		{1DC52085-EA64-466F-AAF0-977A82B2DEDB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

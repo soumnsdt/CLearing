@@ -12,9 +12,9 @@
 //返回传入字符串的长度
 int GetStrLength(char[]);
 //封装fgets,用来接收字符串的字符数组，接收的字符总数
-void GetString(char[], int);
+void MyFgets(char[], int);
 
-void GetString(char str[],int count)
+void MyFgets(char str[],int count)
 {
 	//使用fget函数接收字符串，使用"\0"替换字符数组的最后一位"\n"
 	fgets(str, count, stdin);
@@ -47,7 +47,7 @@ int main()
 	char str[50] = "jack";
 	//fgets(str, 5, stdin);
 	puts("please input a string : \n");
-	GetString(str, 50);
+	MyFgets(str, 50);
 	int length = GetStrLength(str);
 	
 

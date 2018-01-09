@@ -7,9 +7,9 @@
 //返回传入字符串的长度
 int GetStrLength(char[]);
 //封装fgets,用来接收字符串的字符数组，接收的字符总数
-void GetString(char[], int);
+void MyFgets(char[], int);
 
-void GetString(char str[], int count)
+void MyFgets(char str[], int count)
 {
 	//使用fget函数接收字符串，使用"\0"替换字符数组的最后一位"\n"
 	fgets(str, count, stdin);
@@ -43,7 +43,7 @@ int main()
 	char str1[50] = "hello,world!";
 	char str2[20];
 	printf("Please input a string:");
-	GetString(str2, 20);
+	MyFgets(str2, 20);
 	strcpy_s(str1, 2, str2);//将字符串str2复制给str1,str2的长度最大20（包括‘\0’）实际19个字节。
 	printf("%s\t%s\n\n", str1, str2);
 

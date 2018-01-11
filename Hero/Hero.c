@@ -10,7 +10,6 @@ Job jobs[] = {
 void InputHero()
 {
 	int jobChoice = 0;
-	char name[50];
 	char sex[10];
 	//动态录入
 	for (int i = 0; i < 1; i++)
@@ -18,8 +17,8 @@ void InputHero()
 		printf("请录入第%d位英雄的信息：\n", i + 1);
 		heros[i].id = i + 1;
 		printf("名称:");
-		scanf_s("%s",&name,50);
-		heros[i].name = name;
+		heros[i].name = (char *)malloc(50);
+		scanf_s("%s", heros[i].name,50);
 		printf("性别:");
 		scanf_s("%s", &sex,10);
 		heros[i].sex = sex;

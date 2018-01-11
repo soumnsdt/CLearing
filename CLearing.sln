@@ -27,6 +27,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Structure1", "Structure1\St
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hero", "Hero\Hero.vcxproj", "{9DEBDD0A-3083-4803-A170-EDB092846F60}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PrintHeroInformation", "PrintHeroInformation\PrintHeroInformation.vcxproj", "{C6D3E5A1-9BD7-4693-B037-BB3418B360F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -131,6 +133,14 @@ Global
 		{9DEBDD0A-3083-4803-A170-EDB092846F60}.Release|x64.Build.0 = Release|x64
 		{9DEBDD0A-3083-4803-A170-EDB092846F60}.Release|x86.ActiveCfg = Release|Win32
 		{9DEBDD0A-3083-4803-A170-EDB092846F60}.Release|x86.Build.0 = Release|Win32
+		{C6D3E5A1-9BD7-4693-B037-BB3418B360F2}.Debug|x64.ActiveCfg = Debug|x64
+		{C6D3E5A1-9BD7-4693-B037-BB3418B360F2}.Debug|x64.Build.0 = Debug|x64
+		{C6D3E5A1-9BD7-4693-B037-BB3418B360F2}.Debug|x86.ActiveCfg = Debug|Win32
+		{C6D3E5A1-9BD7-4693-B037-BB3418B360F2}.Debug|x86.Build.0 = Debug|Win32
+		{C6D3E5A1-9BD7-4693-B037-BB3418B360F2}.Release|x64.ActiveCfg = Release|x64
+		{C6D3E5A1-9BD7-4693-B037-BB3418B360F2}.Release|x64.Build.0 = Release|x64
+		{C6D3E5A1-9BD7-4693-B037-BB3418B360F2}.Release|x86.ActiveCfg = Release|Win32
+		{C6D3E5A1-9BD7-4693-B037-BB3418B360F2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -15,15 +15,17 @@ typedef struct _myTime
 
 typedef struct _hero
 {
-	char name[50];		//英雄名称
+	char * name;		//英雄名称
 	char sex;			//英雄性别
-	char job[20];		//英雄职业
+	char * job;		//英雄职业
 	double hp;			//英雄生命值
 	double speend;		//攻击速度
-	char ability[20];	//特殊能力
+	char * ability;	//特殊能力
 	MyTime pubTime;		//上线时间
 }Hero;
 
+void InputHero();//动态录入英雄的信息
 void ShowHero();//显示英雄的信息
+void HpAvg();//显示所有英雄生命值的平均值
 
 #endif // !Hero_H_INCLUDED
